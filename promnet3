@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        p{color:blue;}
+    </style>
+  </head>
+  <body>
+    <p>HELLO GUYS</p>
+    <!-- hello world -->
+    <p><b>Lorem</b> <i>ipsum</i> <u>dolor</u> sit amet, consectetur adipiscing elit.</p>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+
+    <p>4<sup>2</sup></p>
+    <p>H<sub>2</sub>0</p>
+   
+
+    <!-- list -->
+    <!-- order list -->
+    <ol>
+      <li>Satu</li>
+      <li>Dua</li>
+      <li>Tiga</li>
+    </ol>
+    
+    <!-- unorder list -->
+    <ul>
+      <li>Empat</li>
+      <li>Lima</li>
+      <li>Enam</li>
+    </ul>
+   
+    <!-- list -->
+    <!-- order list -->
+    <ol type="I">
+      <li>Satu</li>
+      <li>Dua</li>
+      <li>Tiga</li>
+    </ol>
+    
+    <!-- unorder list -->
+    <ul type="square">
+      <li>Empat</li>
+      <li>Lima</li>
+      <li>Enam</li>
+    </ul>
+    
+    <!-- table -->
+    <table border="6">
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Jurusan</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Maria Anders</td>
+        <td>PSTI</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Fransisco Chang</td>
+        <td>PSTI</td>
+      </tr>
+    </table>
+    
+    <!-- table -->
+    <table border="10" style"text-align: center>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Jurusan</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Biya</td>
+          <td rowspan="2"> PSTI</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Lana</td>
+        </tr>
+      </table>
+
+      <!-- gambar -->
+      <!-- ngambil dari internet -->
+      <img src="https://pbs.twimg.com/media/FxgmGo7akAcFQyu.png" alt="mcnugget" weight="250" height="300">
+      <!-- dari file -->
+      <img src="mcnugget.png" alt="mcnugget" weight="100" height="200"> </br>
+
+      <!-- ancor -->
+      <a href="https://www.google.com/">Klik Google</a></br>
+      <a href="https://www.google.com/maps/@-6.8583424,107.5871744,15z?entry=ttu">Klik Maps</a></br>
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.9552695413527!2d107.44495937390042!3d-6.527333863809538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690fa751b3b221%3A0xc01f83115ce4473b!2sMcDonald&#39;s%20Veteran%20Purwakarta!5e0!3m2!1sen!2sid!4v1695290635242!5m2!1sen!2sid" 
+      width="400" 
+      height="300" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+        <!-- form -->
+        <form action="'">
+            <label for="nama">nama:</label>
+            <input type="text">
+            <label for="password">password:</label>
+            <input type="password">
+            <input type="checkbox"><br>
+            <input type="submit" value="submit">
+        </form>
+  </body>
+</html>
